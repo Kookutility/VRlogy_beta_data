@@ -1,0 +1,72 @@
+{
+  "datasets": [
+    {
+      "file": "vrlogy_ankle_data_beta_tester.csv",
+      "columns": {
+        "uid": "Random 6-digit user ID",
+        "frame": "Frame number (0, 30, ..., 270)",
+        "left_ankle_x": "Normalized x-coordinate [0,1]",
+        "left_ankle_y": "Normalized y-coordinate [0,1]",
+        "left_ankle_z": "Depth relative to hip [-0.5, 0.5]",
+        "right_ankle_x": "Normalized x-coordinate [0,1]",
+        "right_ankle_y": "Normalized y-coordinate [0,1]",
+        "right_ankle_z": "Depth relative to hip [-0.5, 0.5]"
+      },
+      "source": "Synthetic, sinusoidal walking pattern"
+    },
+    {
+      "file": "vrlogy_hip_data_beta_tester.csv",
+      "columns": {
+        "uid": "Random 6-digit user ID",
+        "frame": "Frame number (0, 30, ..., 270)",
+        "left_hip_x": "Normalized x-coordinate [0,1]",
+        "left_hip_y": "Normalized y-coordinate [0,1]",
+        "left_hip_z": "Depth relative to hip [-0.5, 0.5]",
+        "right_hip_x": "Normalized x-coordinate [0,1]",
+        "right_hip_y": "Normalized y-coordinate [0,1]",
+        "right_hip_z": "Depth relative to hip [-0.5, 0.5]"
+      },
+      "source": "Synthetic, sinusoidal walking pattern"
+    },
+    {
+      "file": "vrlogy_toe_data_beta_tester.csv",
+      "columns": {
+        "uid": "Random 6-digit user ID",
+        "frame": "Frame number (0, 30, ..., 270)",
+        "left_toe_x": "Normalized x-coordinate [0,1]",
+        "left_toe_y": "Normalized y-coordinate [0,1]",
+        "left_toe_z": "Depth relative to hip [-0.5, 0.5]",
+        "right_toe_x": "Normalized x-coordinate [0,1]",
+        "right_toe_y": "Normalized y-coordinate [0,1]",
+        "right_toe_z": "Depth relative to hip [-0.5, 0.5]"
+      },
+      "source": "Synthetic, sinusoidal walking pattern"
+    },
+    {
+      "file": "vrlogy_hmd_rotation_data_beta_tester.csv",
+      "columns": {
+        "uid": "Random 6-digit user ID",
+        "frame": "Frame number (0, 30, ..., 270)",
+        "hmd_rot_w": "Quaternion w-component [-1,1]",
+        "hmd_rot_x": "Quaternion x-component [-1,1]",
+        "hmd_rot_y": "Quaternion y-component [-1,1]",
+        "hmd_rot_z": "Quaternion z-component [-1,1]"
+      },
+      "source": "Synthetic, sinusoidal head rotation"
+    },
+    {
+      "file": "vrlogy_shoulder_data_beta_tester.csv",
+      "columns": {
+        "uid": "Random 6-digit user ID",
+        "frame": "Frame number (0, 30, ..., 270)",
+        "left_shoulder_x": "Normalized x-coordinate [0,1]",
+        "left_shoulder_y": "Normalized y-coordinate [0,1]",
+        "left_shoulder_z": "Depth relative to hip [-0.5, 0.5]",
+        "right_shoulder_x": "Normalized x-coordinate [0,1]",
+        "right_shoulder_y": "Normalized y-coordinate [0,1]",
+        "right_shoulder_z": "Depth relative to hip [-0.5, 0.5]"
+      },
+      "source": "Synthetic, sinusoidal walking pattern"
+    }
+  ]
+}
